@@ -1,5 +1,33 @@
-svg{
-    background-color: cadetblue;
+  body{
+    position: fixed;
+}  
+ svg{
+    position: fixed;
     width: 100px;
-    height: 100px;
-}
+    height: 100px;    
+    margin-left: 95%;
+    margin-top: -53px;
+ 
+
+} 
+
+ div#frame1{
+    width: 1029px;
+    height: 1014px;
+    background-image: url(/images/Frame1.png);
+    background-size: 100% 100%;
+    margin-left: -218px;
+    margin-top: -153px;
+} 
+
+ div#frame2{
+    width: 400px;
+    height: 400px;
+    margin-top: -400px;
+    margin-left: 1200px;
+    background-image: url(/images/Frame2.png);
+    background-size: 100% 100%;
+
+
+} 
+ 
