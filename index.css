@@ -1,14 +1,13 @@
   body{
     position: fixed;
 }  
+
  svg{
     position: fixed;
     width: 100px;
     height: 100px;    
     margin-left: 95%;
     margin-top: -53px;
- 
-
 } 
 
  div#frame1{
@@ -27,7 +26,20 @@
     margin-left: 1200px;
     background-image: url(/images/Frame2.png);
     background-size: 100% 100%;
-
-
 } 
+
+div#container{
+    width: 588px;
+    height: 588px;
+    margin-top: -760px;
+    margin-left: 677px;
+    background: rgba(255, 255, 255, 0.5);
+    background-size: 100% 100%;
+    /* Hacer ver borroso dentro de la caja */
+    backdrop-filter: blur(20px);
+    /* Borde redondeado */
+    border-radius: 20px;
+    /* Sombreado de la caja */
+    filter: drop-shadow(0px 4px 60px rgba(0, 0, 0, 0.2));
+}
  
