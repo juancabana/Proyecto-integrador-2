@@ -65,5 +65,11 @@ h2{
     font-weight: 500;
     color: #4B4B4B;
     font-family: 'Segoe UI';
+}
 
+h1#linea1,#linea2{
+    margin-left: 12%;
+    font-weight: 700;
+    color: #4B4B4B;
+    font-family: 'Poppins', sans-serif;
 }
