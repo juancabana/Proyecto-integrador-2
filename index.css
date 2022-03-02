@@ -31,7 +31,7 @@ background: linear-gradient(90.17deg, #164E44 0.19%, #00FFE0 99.77%);
     margin-top: -400px;
     margin-left: 1200px;
     background-image: url(/images/Frame2.png);
-    background-size: 100% 100%;
+
 } 
 
 div#container{
@@ -40,7 +40,6 @@ div#container{
     margin-top: -760px;
     margin-left: 677px;
     background: rgba(255, 255, 255, 0.5);
-    background-size: 100% 100%;
     /* Hacer ver borroso dentro de la caja */
     backdrop-filter: blur(20px);
     /* Borde redondeado */
@@ -75,7 +74,6 @@ h2{
 
 h1#linea1,#linea2{
     margin-left: 12%;
-    font-weight: 700;
     color: #4B4B4B;
     font-family: 'Poppins', sans-serif;
 }
@@ -83,32 +81,30 @@ h1#linea1,#linea2{
 
 /* Estilos del formulario */
 div#secction-formulario{
-    margin-left: 81px;
-    margin-right: 80px;
-    margin-bottom: 80px;
-    height: 290px;
-    
+    margin-left: 80px;
+    margin-right: 80px;    
 }
 
-.Password{
-    margin-top: 110px;
-}
 
 .Iduser{
     position: absolute;
     width: 427px;
-    height: 63px;
-    left: 84px;
+    left: 80px;
     top: 222px; 
 }
 
+.Password{
+    margin-top: 110px;
+    width: 427px;
+
+
+}
 .labIDuser,.labPassword{
-    margin-left: 28px;
+    margin-left: 30px;
     position: absolute;
     font-family: Poppins;
     font-size: 12px;
     line-height: 18px;
-    color: #4B4B4B;
 }
 
 input#IduserFor,#PasswordFor{
@@ -117,7 +113,7 @@ input#IduserFor,#PasswordFor{
     margin-left: 1.5%;
     border: 0px;
     margin-top: 20px;
-    background: #F4F4F4;
+    background-color: #dbd8d848;
     border-radius: 5px;
     
 }
@@ -129,26 +125,26 @@ input#IduserFor,#PasswordFor{
     display: flex;
     align-items: center;
     color: #4B4B4B;
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-left: -4px;
 }
 
 input.Checklist{
     cursor: pointer;
-    margin-right: 3%;
+    margin-right: 4%;
 }
 
 .LogIn{
     
     font-family: Poppins;
     font-weight: bolder;
-    width: 427px;
+    width: 420px;
     height: 35px;
     position: absolute;
-    top: 72.8%;
+    top: 80%;
     background: linear-gradient(90.17deg, #09A7BC 0.19%, #2EC0EE 99.77%);
     border-radius: 5px;
     border: 0px;
-
     color: #ffffff;
 }
 
