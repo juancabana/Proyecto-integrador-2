@@ -1,4 +1,4 @@
-  body{
+body{
     position: fixed;
 }  
 /* .vector{
@@ -7,7 +7,6 @@ left: -0.01%;
 right: 0%;
 top: -0.02%;
 bottom: 63.03%;
-
 background: linear-gradient(90.17deg, #164E44 0.19%, #00FFE0 99.77%);
 } */
  svg{
@@ -17,34 +16,32 @@ background: linear-gradient(90.17deg, #164E44 0.19%, #00FFE0 99.77%);
 } 
 
  div#frame1{
-    width: 1029px;
-    height: 1014px;
+    width: 1096px;
+    height: 1105px;
     background-image: url(/images/Frame1.png);
     background-size: 100% 100%;
-    margin-left: -218px;
-    margin-top: -153px;
+    margin-left: -216px;
+    margin-top: -171px;
 } 
 
  div#frame2{
-    width: 400px;
-    height: 400px;
-    margin-top: -400px;
-    margin-left: 1200px;
+    width: 518px;
+    height: 488px;
     background-image: url(/images/Frame2.png);
+    background-size: 100% 100%;
+    margin-top: -528px;
+    margin-left: 1293px;
 
 } 
 
 div#container{
     width: 588px;
     height: 588px;
-    margin-top: -760px;
-    margin-left: 677px;
+    margin-top: -749px;
+    margin-left: 754px;
     background: rgba(255, 255, 255, 0.5);
-    /* Hacer ver borroso dentro de la caja */
     backdrop-filter: blur(20px);
-    /* Borde redondeado */
     border-radius: 20px;
-    /* Sombreado de la caja */
     filter: drop-shadow(0px 4px 60px rgba(0, 0, 0, 0.2));
 }
  
@@ -147,6 +144,3 @@ input.Checklist{
     border: 0px;
     color: #ffffff;
 }
-
-
-
