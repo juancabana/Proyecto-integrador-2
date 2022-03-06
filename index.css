@@ -1,14 +1,7 @@
 body{
     position: fixed;
 }  
-/* .vector{
-    position: absolute;
-left: -0.01%;
-right: 0%;
-top: -0.02%;
-bottom: 63.03%;
-background: linear-gradient(90.17deg, #164E44 0.19%, #00FFE0 99.77%);
-} */
+
  svg{
     position: fixed;   
     margin-left: 95%;
