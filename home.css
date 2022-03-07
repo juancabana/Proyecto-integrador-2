@@ -114,6 +114,9 @@ ul::after {
 #text1{
     color: rgb(255, 255, 255)
 }
+#text2{
+    margin-top: -5%;
+}
 
 
 .secondText{
@@ -123,4 +126,26 @@ ul::after {
     font-size: 50px;
     color: transparent;
     -webkit-text-stroke: 1px rgb(255, 255, 255);
+}
+
+.button{
+    position: absolute;
+    width: 229px;
+    height: 54px;
+    left: 600px;
+    top: 466px;
+    border: transparent;
+    background: linear-gradient(92.82deg, rgba(0, 255, 163, 0.83) 10.5%, rgba(180, 72, 162, 0.66) 52.11%, #440960 85.16%);
+    border-radius: 50px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.miniElipse{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 340px;
+    top: 505px;
+
 }
