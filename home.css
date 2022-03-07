@@ -101,6 +101,7 @@ ul::after {
     background-color: transparent;
 }
 
+
 .firstText{
 
     font-family: 'Roboto', sans-serif;
@@ -110,6 +111,10 @@ ul::after {
     -webkit-text-stroke: 1px rgb(0, 0, 0);
 }
 
+.text{
+    position: fixed;
+    top: 100px;
+}
 
 #text1{
     color: rgb(255, 255, 255)
@@ -120,7 +125,8 @@ ul::after {
 
 
 .secondText{
-
+    
+    position: fixed;
     font-family: 'Roboto', sans-serif;
     margin: 0%;
     font-size: 50px;
@@ -161,3 +167,38 @@ ul::after {
     filter: blur(30px);
     border-radius: 50px;
 }
+
+
+.sectionImage{
+    background-color: transparent;
+    width: 545.26px;
+    height: 684px;
+    margin-top: -120px;
+    margin-left: 495px;   
+
+}
+
+
+#rectangle1{
+    position: absolute;
+    width: 438.4px;
+    height: 402.09px;
+    left: 827px;
+    top: 195px;
+    
+    background: #01FFB3;
+    border-radius: 80px;
+    transform: matrix(-0.24, -0.98, 0.95, -0.28, 0, 0);
+}
+    
+    #rectangle2{
+        position: absolute;
+        width: 430.98px;
+        height: 410.03px;
+        left: 834px;
+        top: 198px;
+        
+        background: #239494;
+        border-radius: 80px;
+        transform: matrix(-0.48, -0.92, 0.81, -0.52, 0, 0);
+    }
