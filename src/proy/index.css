@@ -11,7 +11,7 @@ body{
  div#frame1{
     width: 1096px;
     height: 1105px;
-    background-image: url(/images/Frame1.png);
+    background-image: url(../core/assets/img/Frame1.png);
     background-size: 100% 100%;
     margin-left: -216px;
     margin-top: -171px;
@@ -20,7 +20,7 @@ body{
  div#frame2{
     width: 518px;
     height: 488px;
-    background-image: url(/images/Frame2.png);
+    background-image: url(../core/assets/img/Frame2.png);
     background-size: 100% 100%;
     margin-top: -528px;
     margin-left: 1293px;
