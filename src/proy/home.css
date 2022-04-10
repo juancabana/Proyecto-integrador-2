@@ -9,6 +9,7 @@ body {
   margin-left: 40px;
   margin-top: -25px;
   fill: #00ffe0;
+  z-index: 5;
 }
 
 .ellipse2 {

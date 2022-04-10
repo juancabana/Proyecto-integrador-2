@@ -1,6 +1,9 @@
 body{
     position: fixed;
 }  
+.ellipseE{
+    fill: #09A7BC;
+}
 
  svg{
     position: fixed;   

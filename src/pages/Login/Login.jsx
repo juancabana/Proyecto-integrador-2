@@ -3,36 +3,32 @@ import React, { Component } from "react";
 import imageLogo from "../../core/assets/img/Logo-Vitarrico.png";
 import imagePortfolio from "../../core/assets/img/Portafolio.png";
 import imageCandado from "../../core/assets/img/Candado.png";
-import '../../proy/index.css';
+import "../../proy/home.css";
 
 class Login extends Component {
   render() {
     return (
-      <header>
-        <svg>
-          <linearGradient
+      <section>
+        <div>
+          <svg className="elipse1">
+            {/* <linearGradient
             id="linearGradient1"
             gradientTransform="rotate(30 .5 .5)"
           >
             <stop offset="20%" stop-color="#09A7BC"></stop>
             <stop offset="80%" stop-color="#2EC0EE"></stop>
-          </linearGradient>
-          <ellipse
-            cx="50"
-            cy="50"
-            rx="50"
-            ry="50"
-            style
-            fill="url(#linearGradient1)"
-          />
-        </svg>
+          </linearGradient> */}
+            <ellipse cx="50" cy="50" rx="50" ry="50" />
+          </svg>
+        </div>
+
         <div id="frame1"></div>
 
         <div id="frame2"></div>
 
         <div id="container">
           <div id="section-logo">
-            <img class="img" src={imageLogo} alt="" />
+            <img className="img" src={imageLogo} alt="" />
             <h2 name>VitaGest</h2>
           </div>
 
@@ -46,37 +42,37 @@ class Login extends Component {
           </div>
 
           <div id="secction-formulario">
-            <form class="form">
-              <div class="Iduser">
-                <div class="labIDuser">
+            <form className="form">
+              <div className="Iduser">
+                <div className="labIDuser">
                   <label for="IduserFor">ID Usuario</label>
                 </div>
                 <div>
-                  <img class="img" src={imagePortfolio} alt="" />
+                  <img className="img" src={imagePortfolio} alt="" />
                   <input type="text" id="IduserFor" name="IduserFor" />
                 </div>
               </div>
 
-              <div class="Password">
-                <div class="labPassword">
+              <div className="Password">
+                <div className="labPassword">
                   <label for="PasswordFor">Contraseña</label>
                 </div>
                 <div>
-                  <img class="img" src={imageCandado} alt="" />
+                  <img className="img" src={imageCandado} alt="" />
                   <input type="text" id="PasswordFor" name="PasswordFor" />
                 </div>
               </div>
 
-              <div class="Check">
-                <input type="checkbox" class="Checklist" name="remember" />
+              <div className="Check">
+                <input type="checkbox" className="Checklist" name="remember" />
                 <label for="remember"> Recordarme</label>
               </div>
 
-              <button class="LogIn">Iniciar sesión</button>
+              <button className="LogIn">Iniciar sesión</button>
             </form>
           </div>
         </div>
-      </header>
+      </section>
     );
   }
 }
