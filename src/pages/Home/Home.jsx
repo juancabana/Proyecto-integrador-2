@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 
 import "../../proy/home.css";
-import "../../proy/index.css";
 import imgLogo from "../../core/assets/img/Logo-Vitarrico.png";
 import imgGirl from "../../core/assets/img/Group8424.png";
 

@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    position: fixed;
+}  
+.ellipseE{
+    fill: #09A7BC;
+}
+
+ svg{
+    position: fixed;   
+    margin-left: 95%;
+    margin-top: -53px;
+} 
+
+ div#frame1{
+    width: 1096px;
+    height: 1105px;
+    background-image: url('../../core/assets/img/Frame1.png');
+    background-size: 100% 100%;
+    margin-left: -216px;
+    margin-top: -171px;
+} 
+
+ div#frame2{
+    width: 518px;
+    height: 488px;
+    background-image: url('../../core/assets/img/Frame2.png');
+    background-size: 100% 100%;
+    margin-top: -528px;
+    margin-left: 1293px;
+
+} 
