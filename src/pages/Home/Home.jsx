@@ -2,11 +2,14 @@ import React, { Component } from "react";
 
 import "./home.css";
 import imgGirl from "../../core/assets/img/Group8424.png";
+import Header from "../../components/Header/Header";
 
 class Login extends Component {
   render() {
     return (
       <body>
+
+    <Header/>
         <div className="ellipses"> 
           {/* <!-- elipse1 --> */}
           <div>
@@ -32,7 +35,7 @@ class Login extends Component {
           {/* <!-- Este es el fondo que pone borrosas las elipses  --> */}
           <div className="backgroundDiv">
             {/* <!-- Este es el nav vertical donde están los íconos  --> */}
-           
+        
 
             {/* <!-- seción donde está la caja que contiene letras, boton , elipse e imagen  --> */}
             <div className="box">

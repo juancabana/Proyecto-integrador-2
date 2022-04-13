@@ -146,8 +146,7 @@ body {
   transform: matrix(-0.48, -0.92, 0.81, -0.52, 0, 0);
 }
 
-#imgGirl {
-  position: absolute;
+.imgGirl {
   position: absolute;
   width: 497px;
   height: 661.82px;
