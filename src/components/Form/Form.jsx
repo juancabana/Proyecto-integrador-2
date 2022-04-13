@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import imageLogo from "../../core/assets/img/Logo-Vitarrico.png";
 import imagePortfolio from "../../core/assets/img/Portafolio.png";
 import imageCandado from "../../core/assets/img/Candado.png";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./Form.css";
 
 class Form extends Component {
@@ -50,7 +50,7 @@ class Form extends Component {
               <label for="remember"> Recordarme</label>
             </div>
             
-              <Link to="/home" className="LogIn">Iniciar sesión</Link>
+            <NavLink className='LogIn' to='/  ' >Iniciar sesión</NavLink>
               
           </form>
         </div>

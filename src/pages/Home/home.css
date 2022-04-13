@@ -1,0 +1,157 @@
+body {
+  margin: 0%;
+  position: fixed;
+}
+
+.ellipse1 {
+  height: 1000px;
+  width: 1000px;
+  margin-left: 40px;
+  margin-top: -25px;
+  fill: #00ffe0;
+  z-index: 5;
+}
+
+.ellipse2 {
+  height: 800px;
+  width: 800px;
+  margin-left: -504px;
+  margin-top: 286px;
+  fill: #0c1d37;
+}
+
+.ellipse3 {
+  height: 800px;
+  width: 800px;
+  margin-left: -514px;
+  margin-top: -111px;
+  fill: #fd00e8;
+}
+
+.ellipses {
+  display: flex;
+}
+
+.backgroundDiv {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.61);
+  backdrop-filter: blur(300px);
+  width: 100%;
+  height: 100%;
+}
+
+
+.box {
+  margin-top: 10%;
+  margin-left: 15%;
+  width: 1000px;
+  height: 500px;
+  background-color: transparent;
+}
+
+.firstText {
+  font-family: "Roboto", sans-serif;
+  margin: 0%;
+  font-size: 50px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  -webkit-text-stroke: 1px rgb(0, 0, 0);
+}
+
+.text {
+  position: fixed;
+  top: 100px;
+}
+
+#text1 {
+  color: #091629;
+}
+#text2 {
+  margin-top: -5%;
+}
+
+.secondText {
+  position: fixed;
+  font-family: "Roboto", sans-serif;
+  margin: 0%;
+  font-size: 50px;
+  color: transparent;
+  -webkit-text-stroke: 2px #091629;
+}
+
+.button {
+  position: absolute;
+  width: 229px;
+  height: 54px;
+  left: 600px;
+  top: 466px;
+  border: transparent;
+  background: linear-gradient(
+    92.82deg,
+    rgba(0, 255, 163, 0.83) 10.5%,
+    #440960 85.16%
+  );
+  border-radius: 50px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.miniElipse {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  left: 340px;
+  top: 505px;
+}
+
+.vector {
+  position: absolute;
+  width: 15px;
+  height: 15.590000000000003px;
+  left: 343px;
+  top: 501.38px;
+  border: 30px solid #ffffff;
+  filter: blur(30px);
+  border-radius: 50px;
+}
+
+.sectionImage {
+  background-color: transparent;
+  width: 545.26px;
+  height: 684px;
+  margin-top: -120px;
+  margin-left: 495px;
+}
+
+#rectangle1 {
+  position: absolute;
+  width: 438.4px;
+  height: 402.09px;
+  left: 827px;
+  top: 195px;
+
+  background: #01ffb3;
+  border-radius: 80px;
+  transform: matrix(-0.24, -0.98, 0.95, -0.28, 0, 0);
+}
+
+#rectangle2 {
+  position: absolute;
+  width: 430.98px;
+  height: 410.03px;
+  left: 839px;
+  top: 198px;
+
+  background: #239494;
+  border-radius: 80px;
+  transform: matrix(-0.48, -0.92, 0.81, -0.52, 0, 0);
+}
+
+#imgGirl {
+  position: absolute;
+  position: absolute;
+  width: 497px;
+  height: 661.82px;
+  left: 819.51px;
+  top: 21px;
+  z-index: 0;
+}

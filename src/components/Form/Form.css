@@ -3,7 +3,7 @@ div#container{
     width: 588px;
     height: 588px;
     margin-top: -749px;
-    margin-left: 754px;
+    margin-left: 40%;
     background: rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(20px);
     border-radius: 20px;
@@ -108,6 +108,9 @@ input.Checklist{
     border-radius: 5px;
     border: 0px;
     color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 10px;
 }
 
 .LogIn:hover{
