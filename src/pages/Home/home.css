@@ -1,6 +1,11 @@
-body {
+body{
   margin: 0%;
-  position: fixed;
+}
+.bodyHome {
+  margin: 0%;
+  margin-left: 100px;
+  position: relative;
+  height: 50%;
 }
 
 .ellipse1 {
@@ -39,7 +44,6 @@ body {
   width: 100%;
   height: 100%;
 }
-
 
 .box {
   margin-top: 10%;
@@ -82,7 +86,7 @@ body {
   position: absolute;
   width: 229px;
   height: 54px;
-  left: 600px;
+  left: 466px;
   top: 466px;
   border: transparent;
   background: linear-gradient(
@@ -93,14 +97,6 @@ body {
   border-radius: 50px;
   text-align: center;
   color: #ffffff;
-}
-
-.miniElipse {
-  position: absolute;
-  width: 80px;
-  height: 80px;
-  left: 340px;
-  top: 505px;
 }
 
 .vector {
