@@ -1,0 +1,45 @@
+body {
+  margin: 0%;
+}
+.bodyHome {
+  margin: 0px;
+  margin-left: 0px;
+  position: relative;
+  height: 100%;
+}
+
+.ellipse1 {
+  height: 1000px;
+  width: 1000px;
+  margin-left: 40px;
+  margin-top: -25px;
+  fill: #00ffe0;
+}
+
+.ellipse2 {
+  height: 800px;
+  width: 800px;
+  margin-left: -504px;
+  margin-top: 286px;
+  fill: #0c1d37;
+}
+
+.ellipse3 {
+  height: 800px;
+  width: 800px;
+  margin-left: -514px;
+  margin-top: -111px;
+  fill: #fd00e8;
+}
+
+.ellipses {
+  display: flex;
+}
+
+.backgroundDiv {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.61);
+  backdrop-filter: blur(300px);
+  width: 100%;
+  height: 100%;
+}

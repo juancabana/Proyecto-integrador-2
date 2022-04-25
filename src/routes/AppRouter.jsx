@@ -10,11 +10,11 @@ export default function AppRouter() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />}/> 
+        <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/Products" element={<Products/>}/> 
-        <Route path="/Providers" element={<Providers/>}/>
-        <Route path="/Users" element={<Users/>}/>
+        <Route path="/Products" element={<Products />} />
+        <Route path="/Providers" element={<Providers />} />
+        <Route path="/Users" element={<Users />} />
       </Routes>
     </BrowserRouter>
   );

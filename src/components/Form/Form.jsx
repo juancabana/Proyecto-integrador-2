@@ -49,9 +49,10 @@ class Form extends Component {
               <input type="checkbox" className="Checklist" name="remember" />
               <label for="remember"> Recordarme</label>
             </div>
-            
-            <NavLink className='LogIn' to='/  ' >Iniciar sesión</NavLink>
-              
+
+            <NavLink className="LogIn" to="/  ">
+              Iniciar sesión
+            </NavLink>
           </form>
         </div>
       </div>

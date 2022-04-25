@@ -1,121 +1,114 @@
-
-div#container{
-    width: 588px;
-    height: 588px;
-    margin-top: -749px;
-    margin-left: 40%;
-    background: rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(20px);
-    border-radius: 20px;
-    filter: drop-shadow(0px 4px 60px rgba(0, 0, 0, 0.2));
-}
- 
-div#section-logo{
-    display: flex;
-    width: 138px;
-    height: 39px;
-    margin-left: 70%;
-    padding-top: 3.5%;
+div#container {
+  width: 588px;
+  height: 588px;
+  margin-top: -749px;
+  margin-left: 40%;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(20px);
+  border-radius: 20px;
+  filter: drop-shadow(0px 4px 60px rgba(0, 0, 0, 0.2));
 }
 
-img#logo{
-    width: 40px;   
-    height: 40px;
-
+div#section-logo {
+  display: flex;
+  width: 138px;
+  height: 39px;
+  margin-left: 70%;
+  padding-top: 3.5%;
 }
 
-h2{
-    display: flex;
-    margin-left: 8.4%;
-    font-size: 19px;
-    align-items: center;
-    font-weight: 500;
-    color: #4B4B4B;
-    font-family: 'Segoe UI';
+img#logo {
+  width: 40px;
+  height: 40px;
 }
 
-h1#linea1,#linea2{
-    margin-left: 12%;
-    color: #4B4B4B;
-    font-family: 'Poppins', sans-serif;
+h2 {
+  display: flex;
+  margin-left: 8.4%;
+  font-size: 19px;
+  align-items: center;
+  font-weight: 500;
+  color: #4b4b4b;
+  font-family: "Segoe UI";
 }
 
+h1#linea1,
+#linea2 {
+  margin-left: 12%;
+  color: #4b4b4b;
+  font-family: "Poppins", sans-serif;
+}
 
 /* Estilos del formulario */
-div#secction-formulario{
-    margin-left: 80px;
-    margin-right: 80px;    
+div#secction-formulario {
+  margin-left: 80px;
+  margin-right: 80px;
 }
 
-
-.Iduser{
-    position: absolute;
-    width: 427px;
-    left: 80px;
-    top: 222px; 
+.Iduser {
+  position: absolute;
+  width: 427px;
+  left: 80px;
+  top: 222px;
 }
 
-.Password{
-    margin-top: 110px;
-    width: 427px;
-
-
+.Password {
+  margin-top: 110px;
+  width: 427px;
 }
-.labIDuser,.labPassword{
-    margin-left: 30px;
-    position: absolute;
-    font-family: Poppins;
-    font-size: 12px;
-    line-height: 18px;
-}
-
-input#IduserFor,#PasswordFor{
-    width: 390px;
-    height: 30px;
-    margin-left: 1.5%;
-    border: 0px;
-    margin-top: 20px;
-    background-color: #dbd8d848;
-    border-radius: 5px;
-    
+.labIDuser,
+.labPassword {
+  margin-left: 30px;
+  position: absolute;
+  font-family: Poppins;
+  font-size: 12px;
+  line-height: 18px;
 }
 
-.Check{
-    font-family: Poppins;
-    font-size: 12px;
-    line-height: 18px;
-    display: flex;
-    align-items: center;
-    color: #4B4B4B;
-    margin-top: 30px;
-    margin-left: -4px;
+input#IduserFor,
+#PasswordFor {
+  width: 390px;
+  height: 30px;
+  margin-left: 1.5%;
+  border: 0px;
+  margin-top: 20px;
+  background-color: #dbd8d848;
+  border-radius: 5px;
 }
 
-input.Checklist{
-    cursor: pointer;
-    margin-right: 4%;
+.Check {
+  font-family: Poppins;
+  font-size: 12px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #4b4b4b;
+  margin-top: 30px;
+  margin-left: -4px;
 }
 
-.LogIn{
-    
-    font-family: Poppins;
-    font-weight: bolder;
-    width: 420px;
-    height: 35px;
-    position: absolute;
-    top: 80%;
-    background: linear-gradient(90.17deg, #09A7BC 0.19%, #2EC0EE 99.77%);
-    border-radius: 5px;
-    border: 0px;
-    color: #ffffff;
-    text-align: center;
-    text-decoration: none;
-    padding-top: 10px;
+input.Checklist {
+  cursor: pointer;
+  margin-right: 4%;
 }
 
-.LogIn:hover{
-
-    background: linear-gradient(90.17deg, #067584 0.19%, #1c738d 99.77%);
-    transition: 0.8s;
+.LogIn {
+  font-family: Poppins;
+  font-weight: bolder;
+  width: 420px;
+  height: 35px;
+  position: absolute;
+  top: 80%;
+  background: linear-gradient(90.17deg, #09a7bc 0.19%, #2ec0ee 99.77%);
+  border-radius: 5px;
+  border: 0px;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 10px;
 }
 
+.LogIn:hover {
+  background: linear-gradient(90.17deg, #067584 0.19%, #1c738d 99.77%);
+  transition: 0.8s;
+}

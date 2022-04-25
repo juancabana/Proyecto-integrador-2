@@ -1,28 +1,26 @@
 .rectangle {
   margin: 0%;
   background-color: #ffffff;
-  height: 50rem;
-  width: 100px;
+  height: 100vh;
+  width: 70px;
   z-index: 1;
   position: absolute;
 }
 
-.rectangle .logo{
+.rectangle .logo {
   margin-top: 60px;
-
-    background-color: transparent;
-    width: 100%;
-    height: auto;   
+  background-color: transparent;
+  width: 100%;
+  height: auto;
 }
 
-img.imgLogo{
-    width: auto;
-    height: 80px;
-    /* Con el display y los margenes automaticos, centro la imagen */
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    
+img.imgLogo {
+  width: 100%;
+  height: 100%;
+  /* Con el display y los margenes automaticos, centro la imagen */
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .rectangle .list {
@@ -40,7 +38,6 @@ img.imgLogo{
 
   list-style: none;
   /* margin-bottom: 0px; */
-
 }
 
 ul::after {
@@ -49,14 +46,13 @@ ul::after {
   width: 2px;
   height: 100px;
   background-color: #091629;
-
 }
 
-#item-house{
+#item-house {
   margin-top: 30px;
 }
 
-svg.icon-house{
+svg.icon-house {
   height: 100%;
   width: 35px;
   padding: 0%;
@@ -76,12 +72,12 @@ li:focus {
   transition: 0.8s;
 }
 
-li:hover  svg.icon{
+li:hover svg.icon {
   fill: #33ad99;
   transition: 0.6s;
 }
 
-li:hover  svg.icon-house{
+li:hover svg.icon-house {
   fill: #33ad99;
   transition: 0.6s;
 }
