@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 
-// import "./home.css";
 import Header from "../../components/Header/Header";
 import Background from "../../components/Background/Background";
 import Content from "../../components/Content/Content";

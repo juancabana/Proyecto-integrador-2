@@ -9,50 +9,57 @@ class Form extends Component {
   render() {
     return (
       <div id="container">
-        <div id="section-logo">
-          <img className="img" src={imageLogo} alt="" />
-          <h2>VitaGest</h2>
+        <div className="section-logo-wrapper">
+          <div id="section-logo">
+            <img id="logo" src={imageLogo} alt="" />
+            <h2>VitaGest</h2>
+          </div>
         </div>
 
-        <div>
-          <h1 id="linea1">
-            Inicia sesión
-            <style></style>
-          </h1>
-
+        <div className="h1-wrapper">
+          <h1 id="linea1">Inicia sesión</h1>
           <h1 id="linea2">en tu cuenta</h1>
         </div>
 
         <div id="secction-formulario">
           <form className="form">
-            <div className="Iduser">
+            <div className="wrapper  User">
               <div className="labIDuser">
                 <label for="IduserFor">ID Usuario</label>
               </div>
-              <div>
-                <img className="img" src={imagePortfolio} alt="" />
+              <div className="ImgUser">
+                <img src={imagePortfolio} alt="" />
+              </div>
+              <div className="IdUserFor">
                 <input type="text" id="IduserFor" name="IduserFor" />
               </div>
             </div>
 
-            <div className="Password">
+            <div className=" wrapper Password">
               <div className="labPassword">
                 <label for="PasswordFor">Contraseña</label>
               </div>
-              <div>
-                <img className="img" src={imageCandado} alt="" />
+              <div className="imgPassword">
+                <img src={imageCandado} alt="" />
+              </div>
+              <div className="PasswordFor">
                 <input type="text" id="PasswordFor" name="PasswordFor" />
               </div>
             </div>
 
             <div className="Check">
-              <input type="checkbox" className="Checklist" name="remember" />
-              <label for="remember"> Recordarme</label>
+              <input type="checkbox" className="checklist" name="remember" />
+              <label className="rememLab" for="remember">
+                {" "}
+                Recordarme
+              </label>
             </div>
 
-            <NavLink className="LogIn" to="/  ">
-              Iniciar sesión
-            </NavLink>
+            <div className="buttonForm">
+              <NavLink className="LogIn" to="/  ">
+                Iniciar sesión
+              </NavLink>
+            </div>
           </form>
         </div>
       </div>

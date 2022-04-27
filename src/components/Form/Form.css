@@ -1,114 +1,169 @@
-div#container {
+
+#container {
+  overflow: hidden;
+  position: absolute;
   width: 588px;
   height: 588px;
-  margin-top: -749px;
-  margin-left: 40%;
   background: rgba(255, 255, 255, 0.5);
-  backdrop-filter: blur(20px);
   border-radius: 20px;
+  backdrop-filter: blur(20px);
   filter: drop-shadow(0px 4px 60px rgba(0, 0, 0, 0.2));
+  top: 100px;
+  right: 200px;
 }
 
-div#section-logo {
+.section-logo-wrapper {
+  position: relative;
   display: flex;
-  width: 138px;
-  height: 39px;
-  margin-left: 70%;
-  padding-top: 3.5%;
+  width: 100%;
+  height: 60px;
 }
 
-img#logo {
+#section-logo {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 140px;
+  height: 100%;
+  right: 0%;
+  padding-right: 20px;
+}
+#secction-formulario{
+display: flex;
+    justify-content: center;
+}
+
+h2 {
+  right: 0px;
+  margin-right: 25px;
+
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 16px;
+}
+
+#logo {
   width: 40px;
   height: 40px;
 }
 
-h2 {
+.h1-wrapper {
   display: flex;
-  margin-left: 8.4%;
-  font-size: 19px;
-  align-items: center;
-  font-weight: 500;
-  color: #4b4b4b;
-  font-family: "Segoe UI";
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 150px;
 }
 
-h1#linea1,
+#linea1,
 #linea2 {
-  margin-left: 12%;
-  color: #4b4b4b;
-  font-family: "Poppins", sans-serif;
+  width: auto;
+  height: 50px;
+  justify-content: center;
+  padding-left: 80px;
+  text-align: left;
+  margin: 0%;
+
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 32px;
 }
 
-/* Estilos del formulario */
-div#secction-formulario {
-  margin-left: 80px;
-  margin-right: 80px;
+.form {
+  display: flex;
+  align-items: center;
+  width: 430px;
+  flex-direction: column;
 }
 
-.Iduser {
-  position: absolute;
-  width: 427px;
-  left: 80px;
-  top: 222px;
+.wrapper {
+  width: 98%;
+  height: 65px;
+  display: grid;
+  grid-template-columns: 7% 93%;
+  grid-template-rows: 1fr 1fr;
 }
 
-.Password {
-  margin-top: 110px;
-  width: 427px;
+.wrapper.User {
+  margin-bottom: 15px;
 }
+.wrapper.Password {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
 .labIDuser,
 .labPassword {
-  margin-left: 30px;
-  position: absolute;
-  font-family: Poppins;
+  grid-column-start: 2;
+  justify-self: left;
+
+  font-family: "Poppins";
+  font-weight: 400;
   font-size: 12px;
-  line-height: 18px;
 }
 
-input#IduserFor,
+.ImgUser,
+.imgPassword {
+  justify-self: start;
+  align-self: center;
+  width: 16px;
+  height: 16px;
+}
+
+.IdUserFor,
+.PasswordFor {
+  justify-self: left;
+  width: 100%;
+}
+#IduserFor,
 #PasswordFor {
-  width: 390px;
-  height: 30px;
-  margin-left: 1.5%;
+  width: 100%;
+  height: 40px;
+
   border: 0px;
-  margin-top: 20px;
   background-color: #dbd8d848;
   border-radius: 5px;
 }
 
 .Check {
-  font-family: Poppins;
-  font-size: 12px;
-  line-height: 18px;
-  display: flex;
+  display: grid;
+  grid-template-columns: 7% 93%;
+  height: 40px;
+  width: 470px;
+margin-left: 40px;
+  margin-top: 15px;
   align-items: center;
-  color: #4b4b4b;
-  margin-top: 30px;
-  margin-left: -4px;
 }
 
-input.Checklist {
-  cursor: pointer;
-  margin-right: 4%;
+.rememLab {
+  text-align: start;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.buttonForm {
+	justify-content: center;
+  margin-top: 40px;
+  display: flex;
+  height: auto;
+  width: 100%;
 }
 
 .LogIn {
-  font-family: Poppins;
-  font-weight: bolder;
-  width: 420px;
-  height: 35px;
-  position: absolute;
-  top: 80%;
-  background: linear-gradient(90.17deg, #09a7bc 0.19%, #2ec0ee 99.77%);
-  border-radius: 5px;
-  border: 0px;
-  color: #ffffff;
-  text-align: center;
+  display: flex;
   text-decoration: none;
-  padding-top: 10px;
-}
+  width: 445px ;
+  height: 40px;
+  background: linear-gradient(90.17deg, #09a7bc 0.19%, #2ec0ee 99.77%);
+  color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
 
-.LogIn:hover {
-  background: linear-gradient(90.17deg, #067584 0.19%, #1c738d 99.77%);
-  transition: 0.8s;
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 12px;
+
 }
