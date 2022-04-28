@@ -1,3 +1,19 @@
-.Products{
-    margin-left: 100px;
+.Products {
+  min-height: 100vh;
+  width: 100%;
+  background-color: aquamarine;
+  
+  
+}
+
+.wrapper-list-Products{
+  width: calc(100% - 70px);
+  padding-top: 15px;
+
+  margin-left: 70px;
+
+  height: auto;
+  display: flex;
+  background-color: rgb(232, 223, 223);
+  justify-content: center;
 }

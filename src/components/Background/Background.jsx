@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import "./Background.css";
 
+import Content from "../../components/Content/Content";
+
 class Background extends Component {
   render() {
     return (
@@ -29,7 +31,9 @@ class Background extends Component {
             </div>
 
             {/* <!-- Este es el fondo que pone borrosas las elipses  --> */}
-            <div className="backgroundDiv"></div>
+            <div className="backgroundDiv">
+              <Content />
+            </div>
           </div>
         </div>
       </>
