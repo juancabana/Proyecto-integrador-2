@@ -37,9 +37,14 @@
 .button-new{
   background-color: #16AF8B;
 }
+.button-new:hover{
+  background-color: #139879;
+
+}
 .button-delete{
   background-color: #C24471;
 }
+
 
 .svg-add, .svg-delete{
   fill: #ffffff;
@@ -49,6 +54,7 @@
   width: auto;
   color: rgb(255, 255, 255);
   font-family: 'Niramit', sans-serif;
+  font-size: 18px;
 }
 
 .wrapper-h1{

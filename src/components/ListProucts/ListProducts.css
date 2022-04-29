@@ -1,0 +1,12 @@
+.ListProducts {
+  display: flex;
+  margin-top: 15px;
+  width: calc(100% - 30px);
+  height: auto;
+  background-color: aquamarine;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+.table-products {
+}

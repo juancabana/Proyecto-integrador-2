@@ -1,10 +1,8 @@
 import React, { Component } from "react";
 
-import { FaBeer  } from 'react-icons/fa';
+import { FaBeer } from "react-icons/fa";
 
 import "./TopBarProducts.css";
-
-
 
 class TopBarProducts extends Component {
   render() {
@@ -42,10 +40,11 @@ class TopBarProducts extends Component {
         </div>
 
         <div className="wrapper-search">
-
-
-            <input className="input-search" type="search" placeholder='&#xF004; Search...'/>
-            
+          <input
+            className="input-search"
+            type="search"
+            placeholder="&#xF004; Search..."
+          />
         </div>
       </div>
     );
