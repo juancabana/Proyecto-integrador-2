@@ -6,14 +6,14 @@ import Background from "../../components/Background/Background";
 
 import './Home.css';
 
-class Login extends Component {
+class Home extends Component {
   render() {
     return (
-      <div className="Login">
+      <div className="Home">
         <Header />
         <Background />
       </div>
     );
   }
 }
-export default Login;
+export default Home;

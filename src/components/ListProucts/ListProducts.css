@@ -1,12 +1,36 @@
 .ListProducts {
   display: flex;
   margin-top: 15px;
-  width: calc(100% - 30px);
+  width: calc(100% - 60px);
   height: auto;
   background-color: aquamarine;
   border-radius: 10px;
   justify-content: center;
 }
+.containerProducts{
+  width: 100%;
 
-.table-products {
+}
+.tableProducts{
+  display: flex;
+  flex-direction: column;
+  padding-left: 80px;
+  padding-right: 80px;
+  width: 100%;
+}
+.headerTableProducts{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.contenttableProducts{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+.containerbuttons{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
