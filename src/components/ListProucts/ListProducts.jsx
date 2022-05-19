@@ -14,32 +14,95 @@ import {
 import "./ListProducts.css";
 
 const data = [
-  { id: 12365, nombre: "Granola", categoria: "Cereales" },
-  { id: 55267, nombre: "Almendras", categoria: "Frutos secos" },
-  { id: 29480, nombre: "Tostacos", categoria: "Mekatos" },
-  { id: 55267, nombre: "Almendras", categoria: "Frutos secos" },
-  { id: 12365, nombre: "Granola", categoria: "Cereales" },
-  { id: 55267, nombre: "Almendras", categoria: "Frutos secos" },
-  { id: 49482, nombre: "Nuggets milo", categoria: "Dulces" },
-  { id: 55267, nombre: "Almendras", categoria: "Frutos secos" },
-  { id: 36051, nombre: "Jugo de uva", categoria: "Bebidas" },
-  { id: 55267, nombre: "Almendras", categoria: "Frutos secos" },
-  { id: 12365, nombre: "Granola", categoria: "Cereales" },
-  { id: 36051, nombre: "Jugo de uva", categoria: "Bebidas" },
-  { id: 55267, nombre: "Almendras", categoria: "Frutos secos" },
-  { id: 36051, nombre: "Jugo de uva", categoria: "Bebidas" },
-  { id: 29480, nombre: "Tostacos", categoria: "Mekatos" },
-  { id: 55267, nombre: "Almendras", categoria: "Frutos secos" },
-  { id: 36051, nombre: "Jugo de uva", categoria: "Bebidas" },
-  { id: 69472, nombre: "Soya Pack", categoria: "Bebidas" },
-  { id: 55267, nombre: "Almendras", categoria: "Frutos secos" },
-  { id: 29480, nombre: "Tostacos", categoria: "Mekatos" },
-  { id: 69472, nombre: "Soya Pack", categoria: "Bebidas" },
-  { id: 36051, nombre: "Jugo de uva", categoria: "Bebidas" },
-  { id: 55267, nombre: "Almendras", categoria: "Frutos secos" },
-  { id: 12365, nombre: "Granola", categoria: "Cereales" },
-  { id: 36051, nombre: "Jugo de uva", categoria: "Bebidas" },
-  { id: 55267, nombre: "Almendras", categoria: "Frutos secos" },
+  { id: 12365, nombre: "Granola", categoria: "Cereales", precio: 5500 },
+  { id: 55267, nombre: "Almendras", categoria: "Frutos secos", precio: 6300 },
+  { id: 29480, nombre: "Tostacos", categoria: "Mekatos", precio: 2000 },
+  { id: 55267, nombre: "Almendras", categoria: "Frutos secos", precio: 3400},
+  { id: 12365, nombre: "Granola", categoria: "Cereales", precio: 5500 },
+  { id: 55267, nombre: "Almendras", categoria: "Frutos secos", precio: 6300 },
+  { id: 29480, nombre: "Tostacos", categoria: "Mekatos", precio: 2000 },
+  { id: 55267, nombre: "Almendras", categoria: "Frutos secos", precio: 3400},
+  { id: 12365, nombre: "Granola", categoria: "Cereales", precio: 5500 },
+  { id: 55267, nombre: "Almendras", categoria: "Frutos secos", precio: 6300 },
+  { id: 29480, nombre: "Tostacos", categoria: "Mekatos", precio: 2000 },
+  { id: 55267, nombre: "Almendras", categoria: "Frutos secos", precio: 3400},
+  { id: 12365, nombre: "Granola", categoria: "Cereales", precio: 5500 },
+  { id: 55267, nombre: "Almendras", categoria: "Frutos secos", precio: 6300 },
+  { id: 29480, nombre: "Tostacos", categoria: "Mekatos", precio: 2000 },
+  { id: 55267, nombre: "Almendras", categoria: "Frutos secos", precio: 3400},
+  { id: 12365, nombre: "Granola", categoria: "Cereales", precio: 5500 },
+  { id: 55267, nombre: "Almendras", categoria: "Frutos secos", precio: 6300 },
+  { id: 29480, nombre: "Tostacos", categoria: "Mekatos", precio: 2000 },
+  { id: 55267, nombre: "Almendras", categoria: "Frutos secos", precio: 3400},
+  { id: 12365, nombre: "Granola", categoria: "Cereales", precio: 5500 },
+  { id: 55267, nombre: "Almendras", categoria: "Frutos secos", precio: 6300 },
+  { id: 29480, nombre: "Tostacos", categoria: "Mekatos", precio: 2000 },
+  { id: 55267, nombre: "Almendras", categoria: "Frutos secos", precio: 3400},
+  { id: 12365, nombre: "Granola", categoria: "Cereales", precio: 5500 },
+  { id: 55267, nombre: "Almendras", categoria: "Frutos secos", precio: 6300 },
+  { id: 29480, nombre: "Tostacos", categoria: "Mekatos", precio: 2000 },
+  { id: 55267, nombre: "Almendras", categoria: "Frutos secos", precio: 3400},
+  { id: 12365, nombre: "Granola", categoria: "Cereales", precio: 5500 },
+  { id: 55267, nombre: "Almendras", categoria: "Frutos secos", precio: 6300 },
+  { id: 29480, nombre: "Tostacos", categoria: "Mekatos", precio: 2000 },
+  { id: 55267, nombre: "Almendras", categoria: "Frutos secos", precio: 3400},
+  { id: 12365, nombre: "Granola", categoria: "Cereales", precio: 5500 },
+  { id: 55267, nombre: "Almendras", categoria: "Frutos secos", precio: 6300 },
+  { id: 29480, nombre: "Tostacos", categoria: "Mekatos", precio: 2000 },
+  { id: 55267, nombre: "Almendras", categoria: "Frutos secos", precio: 3400},
+  { id: 12365, nombre: "Granola", categoria: "Cereales", precio: 5500 },
+  { id: 55267, nombre: "Almendras", categoria: "Frutos secos", precio: 6300 },
+  { id: 29480, nombre: "Tostacos", categoria: "Mekatos", precio: 2000 },
+  { id: 55267, nombre: "Almendras", categoria: "Frutos secos", precio: 3400},
+  { id: 12365, nombre: "Granola", categoria: "Cereales", precio: 5500 },
+  { id: 55267, nombre: "Almendras", categoria: "Frutos secos", precio: 6300 },
+  { id: 29480, nombre: "Tostacos", categoria: "Mekatos", precio: 2000 },
+  { id: 55267, nombre: "Almendras", categoria: "Frutos secos", precio: 3400},
+  { id: 12365, nombre: "Granola", categoria: "Cereales", precio: 5500 },
+  { id: 55267, nombre: "Almendras", categoria: "Frutos secos", precio: 6300 },
+  { id: 29480, nombre: "Tostacos", categoria: "Mekatos", precio: 2000 },
+  { id: 55267, nombre: "Almendras", categoria: "Frutos secos", precio: 3400},
+  { id: 12365, nombre: "Granola", categoria: "Cereales", precio: 5500 },
+  { id: 55267, nombre: "Almendras", categoria: "Frutos secos", precio: 6300 },
+  { id: 29480, nombre: "Tostacos", categoria: "Mekatos", precio: 2000 },
+  { id: 55267, nombre: "Almendras", categoria: "Frutos secos", precio: 3400},
+  { id: 12365, nombre: "Granola", categoria: "Cereales", precio: 5500 },
+  { id: 55267, nombre: "Almendras", categoria: "Frutos secos", precio: 6300 },
+  { id: 29480, nombre: "Tostacos", categoria: "Mekatos", precio: 2000 },
+  { id: 55267, nombre: "Almendras", categoria: "Frutos secos", precio: 3400},
+  { id: 12365, nombre: "Granola", categoria: "Cereales", precio: 5500 },
+  { id: 55267, nombre: "Almendras", categoria: "Frutos secos", precio: 6300 },
+  { id: 29480, nombre: "Tostacos", categoria: "Mekatos", precio: 2000 },
+  { id: 55267, nombre: "Almendras", categoria: "Frutos secos", precio: 3400},
+  { id: 12365, nombre: "Granola", categoria: "Cereales", precio: 5500 },
+  { id: 55267, nombre: "Almendras", categoria: "Frutos secos", precio: 6300 },
+  { id: 29480, nombre: "Tostacos", categoria: "Mekatos", precio: 2000 },
+  { id: 55267, nombre: "Almendras", categoria: "Frutos secos", precio: 3400},
+  { id: 12365, nombre: "Granola", categoria: "Cereales", precio: 5500 },
+  { id: 55267, nombre: "Almendras", categoria: "Frutos secos", precio: 6300 },
+  { id: 29480, nombre: "Tostacos", categoria: "Mekatos", precio: 2000 },
+  { id: 55267, nombre: "Almendras", categoria: "Frutos secos", precio: 3400},
+  { id: 12365, nombre: "Granola", categoria: "Cereales", precio: 5500 },
+  { id: 55267, nombre: "Almendras", categoria: "Frutos secos", precio: 6300 },
+  { id: 29480, nombre: "Tostacos", categoria: "Mekatos", precio: 2000 },
+  { id: 55267, nombre: "Almendras", categoria: "Frutos secos", precio: 3400},
+  { id: 12365, nombre: "Granola", categoria: "Cereales", precio: 5500 },
+  { id: 55267, nombre: "Almendras", categoria: "Frutos secos", precio: 6300 },
+  { id: 29480, nombre: "Tostacos", categoria: "Mekatos", precio: 2000 },
+  { id: 55267, nombre: "Almendras", categoria: "Frutos secos", precio: 3400},
+  { id: 12365, nombre: "Granola", categoria: "Cereales", precio: 5500 },
+  { id: 55267, nombre: "Almendras", categoria: "Frutos secos", precio: 6300 },
+  { id: 29480, nombre: "Tostacos", categoria: "Mekatos", precio: 2000 },
+  { id: 55267, nombre: "Almendras", categoria: "Frutos secos", precio: 3400},
+  { id: 12365, nombre: "Granola", categoria: "Cereales", precio: 5500 },
+  { id: 55267, nombre: "Almendras", categoria: "Frutos secos", precio: 6300 },
+  { id: 29480, nombre: "Tostacos", categoria: "Mekatos", precio: 2000 },
+  { id: 55267, nombre: "Almendras", categoria: "Frutos secos", precio: 3400},
+  { id: 12365, nombre: "Granola", categoria: "Cereales", precio: 5500 },
+  { id: 55267, nombre: "Almendras", categoria: "Frutos secos", precio: 6300 },
+  { id: 29480, nombre: "Tostacos", categoria: "Mekatos", precio: 2000 },
+  { id: 55267, nombre: "Almendras", categoria: "Frutos secos", precio: 3400},
+  
 ];
 
 class ListProducts extends Component {
@@ -49,6 +112,7 @@ class ListProducts extends Component {
       id: "",
       nombre: "",
       categoria: "",
+      precio: "",
     },
     modalInsertar: false,
     modalEditar: false,
@@ -93,6 +157,7 @@ class ListProducts extends Component {
     lista.map((registro) => {
       if (dato.id == registro.id) {
         lista[contador].nombre = dato.nombre;
+        lista[contador].precio = dato.precio;
         lista[contador].categoria = dato.categoria;
       }
       contador++;
@@ -152,16 +217,18 @@ class ListProducts extends Component {
           <container className="containerProducts">
             <table className="tableProducts">
               <tr className="headerTableProducts">
-                <th>ID</th>
-                <th>NOMBRE</th>
-                <th>CATEGORIA</th>
-                <th>ACTIONS</th>
+                <th className="subtitle-list">ID</th>
+                <th className="subtitle-list">NOMBRE</th>
+                <th className="subtitle-list">PRECIO</th>
+                <th className="subtitle-list">CATEGORIA</th>
+                <th className="subtitle-list">ACTIONS</th>
               </tr>
               {this.state.data.map((elemento) => (
                 <tr className="contenttableProducts">
-                  <td>{elemento.id}</td>
-                  <td>{elemento.nombre}</td>
-                  <td>{elemento.categoria}</td>
+                  <td className="content-table">{elemento.id}</td>
+                  <td className="content-table">{elemento.nombre}</td>
+                  <td className="content-table">{elemento.precio}</td>
+                  <td className="content-table">{elemento.categoria}</td>
                   {/* <td>{elemento.id}</td> */}
                   <td className="containerbuttons">
                     <button className="buttonedit" onClick={() => this.mostrarModalEditar(elemento)}>
@@ -200,6 +267,15 @@ class ListProducts extends Component {
                   className="form-control"
                   name="nombre"
                   type="text"
+                  onChange={this.handleChange}
+                />
+              </FormGroup>
+              <FormGroup>
+                <label>Precio: </label>
+                <input
+                  className="form-control"
+                  name="precio"
+                  type="float"
                   onChange={this.handleChange}
                 />
               </FormGroup>
@@ -242,13 +318,24 @@ class ListProducts extends Component {
               </FormGroup>
 
               <FormGroup>
-                <label>nombre: </label>
+                <label>Nombre: </label>
                 <input
                   className="form-control"
                   name="nombre"
                   type="text"
                   onChange={this.handleChange}
                   value={this.state.form.nombre}
+                />
+              </FormGroup>
+
+              <FormGroup>
+                <label>Precio: </label>
+                <input
+                  className="form-control"
+                  name="precio"
+                  type="float"
+                  onChange={this.handleChange}
+                  value={this.state.form.precio}
                 />
               </FormGroup>
 
