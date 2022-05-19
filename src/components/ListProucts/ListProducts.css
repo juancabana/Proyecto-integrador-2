@@ -3,34 +3,63 @@
   margin-top: 15px;
   width: calc(100% - 60px);
   height: auto;
-  background-color: aquamarine;
   border-radius: 10px;
   justify-content: center;
 }
-.containerProducts{
+.containerProducts {
   width: 100%;
-
 }
-.tableProducts{
+.tableProducts {
   display: flex;
   flex-direction: column;
   padding-left: 80px;
   padding-right: 80px;
   width: 100%;
 }
-.headerTableProducts{
+.headerTableProducts {
+  padding-left: 60px;
+  padding-right: 60px;
+  height: 50px;
+  align-items: center;
+  margin-bottom: 20px;
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-.contenttableProducts{
+.contenttableProducts {
+  padding-left: 60px;
+  padding-right: 60px;
+  height: 50px;
   width: 100%;
+  align-items: center;
+  background-color: azure;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 10px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-
 }
-.containerbuttons{
+.containerbuttons {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
+}
+
+.buttonedit,
+.buttondelete {
+  width: 80px;
+  border-radius: 5px;
+  border: solid 1px rgba(255, 255, 255, 0);
+  margin-right: 5px;
+  margin-left: 5px;
+  color: white;
+  font-weight: 500;
+}
+.buttonedit{
+  background-color: rgb(131, 211, 217);
+}
+.buttondelete{
+  
+
+  background-color: rgb(223, 67, 103);
 }
