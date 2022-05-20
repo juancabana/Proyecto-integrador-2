@@ -36,8 +36,16 @@
   color: transparent;
   -webkit-text-stroke: 2px #091629;
 }
-
+.content-button-contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .button {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: absolute;
   width: 229px;
   height: 54px;
@@ -52,6 +60,10 @@
   border-radius: 50px;
   text-align: center;
   color: #ffffff;
+}
+.button:hover{
+  color: #0c261e;
+  transition: 0.2s;
 }
 
 .vector {

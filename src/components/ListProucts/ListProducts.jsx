@@ -227,7 +227,7 @@ class ListProducts extends Component {
                 <tr className="contenttableProducts">
                   <td className="content-table">{elemento.id}</td>
                   <td className="content-table">{elemento.nombre}</td>
-                  <td className="content-table">{elemento.precio}</td>
+                  <td className="content-table">${elemento.precio}</td>
                   <td className="content-table">{elemento.categoria}</td>
                   {/* <td>{elemento.id}</td> */}
                   <td className="containerbuttons">

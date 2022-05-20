@@ -27,8 +27,8 @@ class Content extends Component {
           </div>
 
           {/* <!-- Parte del boton --> */}
-          <div>
-            <button className="button">Nuestra empresa</button>
+          <div className="content-button-contact">
+            <a className="button" href="mailto: juand.cabanat@unac.edu.co">Contactanos</a>
           </div>
         </div>
       </>

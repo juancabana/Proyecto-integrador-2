@@ -2,3 +2,14 @@
     overflow: hidden;
     height: 100vh;
 }
+
+body::-webkit-scrollbar{
+    width: 12px;
+    background-color: rgb(232, 223, 223);
+  }
+
+body::-webkit-scrollbar-thumb{
+    background-color: cadetblue;
+    border-radius: 10px;
+}
+  
