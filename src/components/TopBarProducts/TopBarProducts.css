@@ -46,7 +46,7 @@
   margin: 0%;
   width: auto;
   color: rgb(255, 255, 255);
-  font-family: "Niramit", sans-serif;
+  font-family: poppins;
   font-size: 18px;
 }
 
@@ -61,7 +61,7 @@
 .h1-title {
   font-family: "Niramit";
   font-weight: 400;
-  font-size: 40px;
+  font-size: 35px;
 }
 
 .wrapper-search {

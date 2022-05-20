@@ -6,6 +6,10 @@
   height: auto;
   border-radius: 10px;
   justify-content: center;
+  background-color: cadetblue;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .containerProducts {
   width: 100%;
@@ -21,7 +25,6 @@
   padding-right: 60px;
   height: 50px;
   align-items: center;
-  margin-top: 20px;
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -64,6 +67,7 @@
   background-color: #F582AE;
 }
 .subtitle-list{
+  color: white;
   font-family: 'Poppins', sans-serif;
 }
 
