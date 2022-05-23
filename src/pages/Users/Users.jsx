@@ -1,16 +1,19 @@
 import React, { Component } from "react";
 import "./Users.css";
 import Header from "../../components/Header/Header";
+import ContentUsers from "../../components/ContentUsers/ContentUsers";
+import Footer from "../../components/Footer/Footer";
 
 class Users extends Component {
   render() {
     return (
-      <body>
+      <div className="Users">
         <Header />
-        <section className="Users">
-          <h1>Uuuuuuusers</h1>
-        </section>
-      </body>
+        <div className="wrapper-list-users">
+          <ContentUsers />
+          <Footer />
+        </div>
+      </div>
     );
   }
 }

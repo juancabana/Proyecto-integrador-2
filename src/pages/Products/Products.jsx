@@ -11,14 +11,8 @@ class Products extends Component {
       <div className="Products">
         <Header />
         <div className="wrapper-list-Products">
-
-          <ContentProducts/>
-          <Footer/>
-
-          
-          
-
-
+          <ContentProducts />
+          <Footer />
         </div>
       </div>
     );

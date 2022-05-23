@@ -1,0 +1,13 @@
+.ContentProviders {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: calc(100% - 70px);
+    height: auto;
+    background: rgba(120, 196, 186, 0.44);
+    border-radius: 10px;
+    align-items: center;
+  }
+  

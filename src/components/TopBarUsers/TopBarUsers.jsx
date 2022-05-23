@@ -1,13 +1,12 @@
 import React, { Component } from "react";
 
-import { FaBeer } from "react-icons/fa";
 
-import "./TopBarProducts.css";
+import "./TopBarUsers.css";
 
-class TopBarProducts extends Component {
+class TopBarUsers extends Component {
   render() {
     return (
-      <div className="TopBarProducts">
+      <div className="TopBarUsers">
         <div className="wrapper-buttons">
           <button className="button-new">
             <svg
@@ -20,10 +19,11 @@ class TopBarProducts extends Component {
             </svg>
             <h2 className="h2New">New</h2>
           </button>
+
         </div>
 
         <div className="wrapper-h1">
-          <h1 className="h1-title">Manage Products</h1>
+          <h1 className="h1-title">Manage Users</h1>
         </div>
 
         <div className="wrapper-search">
@@ -38,4 +38,4 @@ class TopBarProducts extends Component {
   }
 }
 
-export default TopBarProducts;
+export default TopBarUsers;

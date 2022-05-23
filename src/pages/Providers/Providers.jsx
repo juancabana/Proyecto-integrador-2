@@ -2,15 +2,26 @@ import React, { Component } from "react";
 import "./Providers.css";
 import Header from "../../components/Header/Header";
 
+import ContentProviders from "../../components/ContentProviders/ContentProviders";
+import Footer from "./../../components/Footer/Footer";
+
+
 class Providers extends Component {
   render() {
     return (
-      <body>
+        <div className="Providers">
         <Header />
-        <section className="Providers">
-          <h1>Providers</h1>
-        </section>
-      </body>
+        <div className="wrapper-list-Providers">
+
+          <ContentProviders/>
+          <Footer/>
+
+          
+          
+
+
+        </div>
+        </div>
     );
   }
 }

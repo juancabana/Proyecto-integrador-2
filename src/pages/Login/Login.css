@@ -13,7 +13,7 @@
 }
 #frame1{
     position: absolute;
-    background-image: url('');
+    background-image: url('./../../core//assets/img/Frame1.png');
     width: 1096px;
     height: 1105px;
     top: -175px;
@@ -22,7 +22,7 @@
 
 #frame2{
     position: absolute;
-    background-image: url('');
+    background-image: url('./../../core//assets/img/Frame2.png');
     width: 520px;
     height: 490px;
     top: 385px;
