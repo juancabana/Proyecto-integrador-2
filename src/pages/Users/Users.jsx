@@ -3,6 +3,7 @@ import "./Users.css";
 import Header from "../../components/Header/Header";
 import ContentUsers from "../../components/ContentUsers/ContentUsers";
 import Footer from "../../components/Footer/Footer";
+import LinkFloat from "../../components/linksFloat/LinkFloat";
 
 class Users extends Component {
   render() {
@@ -10,7 +11,10 @@ class Users extends Component {
       <div className="Users">
         <Header />
         <div className="wrapper-list-users">
-          <ContentUsers />
+          <div className="containerlist">
+            <ContentUsers />
+          </div>
+          <LinkFloat />
           <Footer />
         </div>
       </div>

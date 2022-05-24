@@ -7,11 +7,10 @@
 }
 
 .firstText {
+  color: #ffffff;
   font-family: "Roboto", sans-serif;
   margin: 0%;
   font-size: 50px;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-  -webkit-text-stroke: 1px rgb(0, 0, 0);
 }
 
 .text {
@@ -21,11 +20,12 @@
 
 #text1 {
   font-size: 120px;
-  color: #091629;
+  color: white;
 }
 #text2 {
   font-size: 120px;
   margin-top: -5%;
+  color: #440960;
 }
 
 .secondText {
@@ -34,7 +34,7 @@
   margin: 0%;
   font-size: 50px;
   color: transparent;
-  -webkit-text-stroke: 2px #091629;
+  -webkit-text-stroke: 1px white;
 }
 .content-button-contact {
   display: flex;
@@ -116,4 +116,28 @@
   left: 819.51px;
   top: 21px;
   z-index: 0;
+}
+.wrapper-social-media{
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+  top: 650px;
+  left: 45px;
+  width: 300px;
+  height: 50px;
+}
+.location-wrapper{
+position: absolute;
+  left: 1370px;
+
+
+}
+
+
+
+.links-social{
+  border-radius: 50px;
+  display: block;
+  height: 100%;
+  width: 50px;
 }

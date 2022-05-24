@@ -1,0 +1,18 @@
+
+.linkFloat{
+    position: fixed;
+    display: flex;
+    top: 75vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    right: 13px;
+    width:50px;
+    height: 170px;
+  }
+  
+  .links-social-pages{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+  }

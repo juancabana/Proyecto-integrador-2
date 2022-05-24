@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import imgUsers from "./../../core/assets/img/icons8-usuario-100.png";
 
 import "./TopBarUsers.css";
 
@@ -23,7 +23,10 @@ class TopBarUsers extends Component {
         </div>
 
         <div className="wrapper-h1">
-          <h1 className="h1-title">Manage Users</h1>
+          <h1 className="h1-title">Gestionar ususarios</h1>
+          <div className="wrapper-icon-rigth">
+            <img src={imgUsers} alt="Logo" />
+          </div>
         </div>
 
         <div className="wrapper-search">

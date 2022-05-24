@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-
-import { FaBeer } from "react-icons/fa";
+import imgProduct from "./../../core/assets/img/icons8-producto-usado-100.png";
 
 import "./TopBarProducts.css";
 
@@ -23,7 +22,10 @@ class TopBarProducts extends Component {
         </div>
 
         <div className="wrapper-h1">
-          <h1 className="h1-title">Manage Products</h1>
+          <h1 className="h1-title">Gestionar productos</h1>
+          <div className="wrapper-icon-rigth">
+            <img src={imgProduct} alt="Logo" />
+          </div>
         </div>
 
         <div className="wrapper-search">

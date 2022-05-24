@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import imgProvider from "./../../core/assets/img/icons8-hombre-en-la-caja-del-producto-red-jacket-100.png";
 
 import "./TopBarProviders.css";
 
@@ -24,7 +24,10 @@ class TopBarProviders extends Component {
         </div>
 
         <div className="wrapper-h1">
-          <h1 className="h1-title">Manage Providers</h1>
+          <h1 className="h1-title">Gestionar proveedores</h1>
+          <div className="wrapper-icon-rigth">
+            <img src={imgProvider} alt="Logo" />
+          </div>
         </div>
 
         <div className="wrapper-search">

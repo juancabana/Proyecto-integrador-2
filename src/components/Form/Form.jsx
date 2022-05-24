@@ -12,7 +12,7 @@ class Form extends Component {
         <div className="section-logo-wrapper">
           <div id="section-logo">
             <img id="logo" src={imageLogo} alt="" />
-            <h2>VitaGest</h2>
+            <h2 className="h2-login">VitaGest</h2>
           </div>
         </div>
 

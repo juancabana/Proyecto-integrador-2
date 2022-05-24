@@ -2,9 +2,8 @@
     display: flex;
     flex-direction: column;
     overflow: hidden;
-    padding-top: 30px;
     padding-bottom: 30px;
-    width: calc(100% - 70px);
+    width: 100%;
     height: auto;
     background: rgba(120, 196, 186, 0.44);
     border-radius: 10px;

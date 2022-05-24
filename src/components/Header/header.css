@@ -1,84 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
 .rectangle {
   top: 0px;
   margin: 0%;
-  background-color: #ffffff;
-  height: 100vh;
-  width: 70px;
+  background-color: cadetblue;
+  height: 70px;
+  width: 100vw;
   z-index: 1;
   position: fixed;
-}
-
-.rectangle .logo {
-  margin-top: 60px;
-  background-color: transparent;
-  width: 100%;
-  height: auto;
-}
-
-img.imgLogo {
-  width: 100%;
-  height: 100%;
-  /* Con el display y los margenes automaticos, centro la imagen */
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.rectangle .list {
-  background-color: transparent;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 80%;
-  width: 60%;
-  height: 73%;
   justify-content: space-between;
-
-  list-style: none;
-  /* margin-bottom: 0px; */
+  align-items: center;
+  padding-left: 35px;
+  padding-right: 45px;
+  box-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+.logo{
+  height: 60px;
+  width: 65px;
+  background-image: url(./../../core/assets/img/Logo-Vitarrico.png);
+  background-size: cover;
+}
+.wrapper-first-header{
+  display: flex;
+  align-items: center;
 }
 
-ul::after {
-  content: "";
-  /* display: block; */
-  width: 2px;
-  height: 100px;
-  background-color: #091629;
+.wrapper-slogan-header{
+  margin-left: 30PX;
 }
 
-#item-house {
-  margin-top: 30px;
+.slogan-header{
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  margin: 0%;
+  font-size: 35px;
+  font-weight: 700;
 }
 
-svg.icon-house {
+.wrapper-second-header{
+  display: flex;
+  width: 500px;
+  justify-content: space-around;
+
+  align-items: center;
+}
+.navlink{
+  display: flex;
+  align-items: center;
+  height: 70px;
+  text-decoration: none;
+  font-family: poppins;
+  font-size: 20 px;
+  color: white;
+}
+.navlink:hover{
+  transform:  scale(0.9); 
+
+  color: rgb(209, 244, 232);
+  font-weight: 400;
+  transition: 0.2s;
+}
+
+.icon-house{
+  width: 20px;
   height: 100%;
-  width: 35px;
-  padding: 0%;
-  fill: #0c1d37;
-}
-
-svg.icon {
-  height: 100%;
-  width: 25px;
-  padding: 0%;
-  fill: #0c1d37;
-}
-
-li:hover,
-li:focus {
-  transform: translateY(-3px);
-  transition: 0.8s;
-}
-
-li:hover svg.icon {
-  fill: #33ad99;
-  transition: 0.6s;
-}
-
-li:hover svg.icon-house {
-  fill: #33ad99;
-  transition: 0.6s;
 }

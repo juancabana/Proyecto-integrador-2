@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 .ListProducts {
   display: flex;
   margin-top: 15px;
@@ -6,7 +7,7 @@
   height: auto;
   border-radius: 10px;
   justify-content: center;
-  background-color: cadetblue;
+  background-color: #35c7bb;
   padding-bottom: 10px;
   padding-left: 15px;
   padding-right: 15px;
@@ -17,7 +18,6 @@
 .tableProducts {
   display: flex;
   flex-direction: column;
-
   width: 100%;
 }
 .headerTableProducts {
@@ -27,7 +27,7 @@
   align-items: center;
   width: 100%;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 0.4fr;
 }
 .contenttableProducts {
   padding-left: 60px;
@@ -35,12 +35,12 @@
   height: 50px;
   width: 100%;
   align-items: center;
-  background-color: #F3FBFB;
+  background-color: #f3fbfb;
   margin-top: 5px;
   margin-bottom: 5px;
   border-radius: 10px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 0.3fr;
 }
 .containerbuttons {
   display: flex;
@@ -48,31 +48,38 @@
   justify-content: center;
 }
 
-.buttonedit,
-.buttondelete {
-  font-family: 'Poppins', sans-serif;
+.buttonedit-products,
+.buttondelete-products {
+  fill: #f3fbfb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
 
-  width: 80px;
-  font-size: 15px;
-  border-radius: 5px;
+  border-radius: 50px;
   border: solid 1px rgba(255, 255, 255, 0);
   margin-right: 5px;
   margin-left: 5px;
-  color: white;
-  font-weight: 500;
-}
-.buttonedit {
-  background-color: #8BD3DD;
-}
-.buttondelete {
-  background-color: #F582AE;
-}
-.subtitle-list{
-  color: white;
-  font-family: 'Poppins', sans-serif;
 }
 
-.content-table{
-  font-family: 'Poppins', sans-serif;
+.buttonedit-products:hover {
+  background-color: #0d98ab;
+}
+.buttondelete-products:hover {
+  background-color: #be074d;
+}
+.buttonedit-products {
+  background-color: #10cde6;
+}
+.buttondelete-products {
+  background-color: #ee079c;
+}
+.subtitle-list {
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
 
+.content-table {
+  font-family: "Poppins", sans-serif;
 }

@@ -36,74 +36,7 @@ const data = [
   { id: 55267, username: "Daniel", edad: 35, pais: "Perú" },
   { id: 29480, username: "Luis", edad: 46, pais: "Ecuador" },
   { id: 55267, username: "Daniel", edad: 35, pais: "Brazil"},
-  { id: 12365, username: "Juan", edad: 20, pais: "Colombia" },
-  { id: 55267, username: "Daniel", edad: 35, pais: "Perú" },
-  { id: 29480, username: "Luis", edad: 46, pais: "Ecuador" },
-  { id: 55267, username: "Daniel", edad: 35, pais: "Brazil"},
-  { id: 12365, username: "Juan", edad: 20, pais: "Colombia" },
-  { id: 55267, username: "Daniel", edad: 35, pais: "Perú" },
-  { id: 29480, username: "Luis", edad: 46, pais: "Ecuador" },
-  { id: 55267, username: "Daniel", edad: 35, pais: "Brazil"},
-  { id: 12365, username: "Juan", edad: 20, pais: "Colombia" },
-  { id: 55267, username: "Daniel", edad: 35, pais: "Perú" },
-  { id: 29480, username: "Luis", edad: 46, pais: "Ecuador" },
-  { id: 55267, username: "Daniel", edad: 35, pais: "Brazil"},
-  { id: 12365, username: "Juan", edad: 20, pais: "Colombia" },
-  { id: 55267, username: "Daniel", edad: 35, pais: "Perú" },
-  { id: 29480, username: "Luis", edad: 46, pais: "Ecuador" },
-  { id: 55267, username: "Daniel", edad: 35, pais: "Brazil"},
-  { id: 12365, username: "Juan", edad: 20, pais: "Colombia" },
-  { id: 55267, username: "Daniel", edad: 35, pais: "Perú" },
-  { id: 29480, username: "Luis", edad: 46, pais: "Ecuador" },
-  { id: 55267, username: "Daniel", edad: 35, pais: "Brazil"},
-  { id: 12365, username: "Juan", edad: 20, pais: "Colombia" },
-  { id: 55267, username: "Daniel", edad: 35, pais: "Perú" },
-  { id: 29480, username: "Luis", edad: 46, pais: "Ecuador" },
-  { id: 55267, username: "Daniel", edad: 35, pais: "Brazil"},
-  { id: 12365, username: "Juan", edad: 20, pais: "Colombia" },
-  { id: 55267, username: "Daniel", edad: 35, pais: "Perú" },
-  { id: 29480, username: "Luis", edad: 46, pais: "Ecuador" },
-  { id: 55267, username: "Daniel", edad: 35, pais: "Brazil"},
-  { id: 12365, username: "Juan", edad: 20, pais: "Colombia" },
-  { id: 55267, username: "Daniel", edad: 35, pais: "Perú" },
-  { id: 29480, username: "Luis", edad: 46, pais: "Ecuador" },
-  { id: 55267, username: "Daniel", edad: 35, pais: "Brazil"},
-  { id: 12365, username: "Juan", edad: 20, pais: "Colombia" },
-  { id: 55267, username: "Daniel", edad: 35, pais: "Perú" },
-  { id: 29480, username: "Luis", edad: 46, pais: "Ecuador" },
-  { id: 55267, username: "Daniel", edad: 35, pais: "Brazil"},
-  { id: 12365, username: "Juan", edad: 20, pais: "Colombia" },
-  { id: 55267, username: "Daniel", edad: 35, pais: "Perú" },
-  { id: 29480, username: "Luis", edad: 46, pais: "Ecuador" },
-  { id: 55267, username: "Daniel", edad: 35, pais: "Brazil"},
-  { id: 12365, username: "Juan", edad: 20, pais: "Colombia" },
-  { id: 55267, username: "Daniel", edad: 35, pais: "Perú" },
-  { id: 29480, username: "Luis", edad: 46, pais: "Ecuador" },
-  { id: 55267, username: "Daniel", edad: 35, pais: "Brazil"},
-  { id: 12365, username: "Juan", edad: 20, pais: "Colombia" },
-  { id: 55267, username: "Daniel", edad: 35, pais: "Perú" },
-  { id: 29480, username: "Luis", edad: 46, pais: "Ecuador" },
-  { id: 55267, username: "Daniel", edad: 35, pais: "Brazil"},
-  { id: 12365, username: "Juan", edad: 20, pais: "Colombia" },
-  { id: 55267, username: "Daniel", edad: 35, pais: "Perú" },
-  { id: 29480, username: "Luis", edad: 46, pais: "Ecuador" },
-  { id: 55267, username: "Daniel", edad: 35, pais: "Brazil"},
-  { id: 12365, username: "Juan", edad: 20, pais: "Colombia" },
-  { id: 55267, username: "Daniel", edad: 35, pais: "Perú" },
-  { id: 29480, username: "Luis", edad: 46, pais: "Ecuador" },
-  { id: 55267, username: "Daniel", edad: 35, pais: "Brazil"},
-  { id: 12365, username: "Juan", edad: 20, pais: "Colombia" },
-  { id: 55267, username: "Daniel", edad: 35, pais: "Perú" },
-  { id: 29480, username: "Luis", edad: 46, pais: "Ecuador" },
-  { id: 55267, username: "Daniel", edad: 35, pais: "Brazil"},
-  { id: 12365, username: "Juan", edad: 20, pais: "Colombia" },
-  { id: 55267, username: "Daniel", edad: 35, pais: "Perú" },
-  { id: 29480, username: "Luis", edad: 46, pais: "Ecuador" },
-  { id: 55267, username: "Daniel", edad: 35, pais: "Brazil"},
-  { id: 12365, username: "Juan", edad: 20, pais: "Colombia" },
-  { id: 55267, username: "Daniel", edad: 35, pais: "Perú" },
-  { id: 29480, username: "Luis", edad: 46, pais: "Ecuador" },
-  { id: 55267, username: "Daniel", edad: 35, pais: "Brazil"},
+
   
 ];
 
@@ -205,10 +138,22 @@ class ListUsers extends Component {
                   <td className="content-table">{elemento.edad}</td>
                   <td className="containerbuttons">
                     <button className="buttonedit" onClick={() => this.mostrarModalEditar(elemento)}>
-                      Editar
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="24"
+                        width="24"
+                      >
+                        <path d="M10.15 20.7 14.025 16.825H21.95V20.7ZM3.95 18.825H5.25L15.275 8.85L14.6 8.175L13.925 7.5L3.95 17.525ZM2.075 20.7V16.725L15.275 3.55Q15.8 3 16.587 3Q17.375 3 17.925 3.55L19.225 4.9Q19.775 5.425 19.775 6.2Q19.775 6.975 19.225 7.5L6.05 20.7ZM17.9 6.2 16.575 4.875ZM15.275 8.85 14.6 8.175 13.925 7.5 15.275 8.85Z" />
+                      </svg>
                     </button>
                     <button className="buttondelete" onClick={() => this.eliminar(elemento)}>
-                      Eliminar
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="24"
+                        width="24"
+                      >
+                        <path d="M7.95 19.05H16.075Q16.075 19.05 16.075 19.05Q16.075 19.05 16.075 19.05V8.925H7.95V19.05Q7.95 19.05 7.95 19.05Q7.95 19.05 7.95 19.05ZM5.075 5.925V4.05H8.525L9.525 3.05H14.475L15.475 4.05H18.95V5.925ZM7.95 20.925Q7.175 20.925 6.625 20.375Q6.075 19.825 6.075 19.05V7.05H17.95V19.05Q17.95 19.825 17.387 20.375Q16.825 20.925 16.075 20.925ZM7.95 19.05H16.075Q16.075 19.05 16.075 19.05Q16.075 19.05 16.075 19.05H7.95Q7.95 19.05 7.95 19.05Q7.95 19.05 7.95 19.05Z" />
+                      </svg>
                     </button>
                   </td>
                 </tr>

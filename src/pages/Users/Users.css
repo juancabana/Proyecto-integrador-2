@@ -1,16 +1,15 @@
 .Users {
   min-height: 100vh;
   width: 100%;
-  background-color: aquamarine;
+  background: linear-gradient(to right, #e2eef0, #d2f1ee);  
 }
 .wrapper-list-users {
-  width: calc(100% - 70px);
+  width: 100%;
+  margin-top: 70px;
   padding-top: 15px;
-  margin-left: 70px;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background-color: rgb(232, 223, 223);
   justify-content: center;
   align-items: center;
 }
